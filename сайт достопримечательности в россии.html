@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Достопримечательности России</title>
+  <style>
+    body {font-family: Arial, sans-serif; margin:0; background:#f4f4f4;}
+    header {background:#1f3c88; color:white; padding:20px; text-align:center;}
+    nav {background:#163172; padding:10px; text-align:center;}
+    nav a {color:white; margin:0 15px; text-decoration:none; font-weight:bold;}
+    .container {max-width:1000px; margin:auto; padding:20px;}
+    .card {background:white; padding:20px; margin:20px 0; border-radius:10px; box-shadow:0 2px 5px rgba(0,0,0,0.1);} 
+    .gallery {display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:10px; margin-top:10px;}
+    .gallery img {width:100%; border-radius:10px; height:150px; object-fit:cover;}
+    footer {background:#1f3c88; color:white; text-align:center; padding:15px; margin-top:20px;}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Достопримечательности России</h1>
+  <p>Интересные места, которые стоит посетить</p>
+</header>
+
+<nav>
+  <a href="#moscow">Москва</a>
+  <a href="#spb">Санкт-Петербург</a>
+  <a href="#baikal">Байкал</a>
+</nav>
+
+<div class="container">
+
+  <div class="card" id="moscow">
+    <h2>Красная площадь</h2>
+    <div class="gallery">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/RedSquare.jpg" alt="Красная площадь">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Saint_Basil%27s_Cathedral_Red_Square.jpg" alt="Собор Василия Блаженного">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Kremlin_and_Red_Square.jpg" alt="Кремль и Красная площадь">
+    </div>
+    <p>Красная площадь — главная площадь Москвы и один из самых известных символов России.</p>
+  </div>
+
+  <div class="card" id="spb">
+    <h2>Эрмитаж</h2>
+    <div class="gallery">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Hermitage_Museum.jpg" alt="Эрмитаж">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/Winter_Palace_SPB.jpg" alt="Зимний дворец">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Hermitage_Interior.jpg" alt="Интерьер Эрмитажа">
+    </div>
+    <p>Государственный Эрмитаж — один из крупнейших музеев искусства в мире, расположенный в Санкт‑Петербурге.</p>
+  </div>
+
+  <div class="card" id="baikal">
+    <h2>Озеро Байкал</h2>
+    <div class="gallery">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Baikal_Lake.jpg" alt="Байкал">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Lake_Baikal_winter.jpg" alt="Байкал зимой">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Olkhon_Island_Baikal.jpg" alt="Остров Ольхон">
+    </div>
+    <p>Байкал — самое глубокое озеро в мире и уникальный природный объект.</p>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 Путешествия по России</p>
+</footer>
+
+</body>
+</html>
